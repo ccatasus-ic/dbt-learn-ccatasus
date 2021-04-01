@@ -4,4 +4,4 @@ select  id as payment_id
         ,status
         ,amount/100::integer as amount
         ,created as created_at
-from    raw.stripe.payments
+from    raw.stripe.payment
