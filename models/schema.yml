@@ -49,6 +49,7 @@ models:
 
 sources:
   - name: jaffle_shop
+    description: This references the raw jaffle_shop data
     database: raw
     freshness: # default freshness
       warn_after: {count: 12, period: hour}
